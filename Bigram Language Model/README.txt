@@ -9,7 +9,7 @@ To run the program, please use the following command:
 		version of iPhone in 2008."
 	  	The quotation marks ("") are needed.
  
-------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
 
 The given program uses the Bigram Language Model, which is trained on the corpus provided by the user, to find out which of the two 
 sentences is most probable.
@@ -21,8 +21,8 @@ The probabilities of the two sentences have ben calculated under two scenarios:
 First the bigram counts for the given sentences are calculated for the bigram model without smoothing.
 These counts are then converted to bigram probabilities, which are used to calculate the joint probability of the given word sequences 
 (the sentences).
-The probability matrix obtained from the bigram model without smoothing, is a sparse matrix which makes it highly probable for the given 
-sentences to have 0 probability.
+The probability matrix obtained from the bigram model without smoothing, is a sparse matrix which makes it highly probable for the 
+given sentences to have 0 probability.
 
 This is why smoothing is performed.
 In add-one smoothing the bigram counts are increased by 1, and the probabilities are calculated after adjusting for these increased counts.
