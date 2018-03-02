@@ -4,10 +4,12 @@ To run the program, please use the following command:
 
     python bigram_prob.py "<corpus file name>" "<first sentence>" "<second sentence>"
 
-    For example: python bigram_prob.py "Corpus.txt" "Apple computer is the first product of the company." "Apple introduced the new version of iPhone in 2008."
-	  The quotation marks ("") are needed.
+    For example: 
+		python bigram_prob.py "Corpus.txt" "Apple computer is the first product of the company." "Apple introduced the new 
+		version of iPhone in 2008."
+	  	The quotation marks ("") are needed.
  
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------
 
 The given program uses the Bigram Language Model, which is trained on the corpus provided by the user, to find out which of the two 
 sentences is most probable.
