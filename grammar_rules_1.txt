@@ -1,0 +1,16 @@
+Pronoun : I
+Pronoun : YOU
+PlurNoun : FLIES
+PlurNoun : ARROWS
+Verb : LIKE
+Verb : FLIES
+Prep : LIKE
+Prep : WITH
+S : NP VP
+S : VP
+NP : Pronoun
+NP : PlurNoun
+VP : Verb
+VP : Verb NP
+VP : VP PP
+PP : Prep NP

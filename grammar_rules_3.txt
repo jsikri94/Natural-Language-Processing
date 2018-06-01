@@ -1,0 +1,37 @@
+S : NP VP
+S : Aux NP VP
+S : VP
+NP : Pronoun
+NP : PNoun
+NP : Det Nominal
+Nominal : Noun
+Nominal : Nominal Noun
+Nominal : Nominal PP
+VP : Verb
+VP : Verb NP
+VP : Verb NP PP
+VP : Verb PP
+VP : VP PP
+PP : Prep NP
+Det : that 
+Det : this 
+Det : a
+Det : the
+Noun : book 
+Noun : flight 
+Noun : meal 
+Noun : money
+Verb : book 
+Verb : include 
+Verb : prefer
+Pronoun : I 
+Pronoun : she 
+Pronoun : me
+PNoun : Houston 
+PNoun : NWA
+Aux : does
+Prep : from 
+Prep : to 
+Prep : on 
+Prep : near 
+Prep : through
