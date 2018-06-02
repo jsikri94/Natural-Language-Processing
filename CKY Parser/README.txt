@@ -14,8 +14,7 @@ through j of the input. Since our grammar is in CNF, the non-terminal entries in
 two daughters. Thus, for each constituent represented by the entry [i, j] in the table, there must be a
 position k, where it can be split into two parts, such that i<k<j.
 The first constituent [i, k] must lie to the left of [i, j] and the second constituent must lie beneath it.
-CKY recognition is mainly just filling in this table in the correct way. The cells are filled in a bottom-up
-fashion, going from left to right.
-The CKY algorithm is a recognizer and not a parser. To turn it into a parser, we need to add back pointers
-to each non-terminal to know where it was derived from and allow multiple entries of the same nonterminal
-into the table.
+CKY recognition is mainly just filling in this table in the correct way. The cells are filled in a bottom-up 
+fashion, going from left to right. The CKY algorithm is a recognizer and not a parser. To turn it into a parser, 
+we need to add back pointers to each non-terminal to know where it was derived from and allow multiple entries 
+of the same nonterminal into the table.
